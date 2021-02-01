@@ -33,6 +33,19 @@ Repository 를 클론
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
-|POST|users/login|NONE|테스트3|
-|GET|users/validate|Access Token|테스트3|
-|POST|users/refresh|Access Token|테스트3|
+|POST|/users/login|NONE|로그인 시  JWT Token 반환|
+|POST|/users/refresh|JWT Token|JWT Token을 검증 후 새로운  토큰 반환|
+|GET|/users/validate|JWT Token|JWT Token을 검증|
+
+
+* 회원(User) 리소스 관련 API
+
+|HTTP|Path|Permission|목적|
+|---|---|---|---|
+|POST|/users|NONE|유저 생성|
+|GET|/users|JWT Token + SuperUser|모든 유저 정보 조회|
+|GET|/users/{id}|JWT Token + SuperUser|{id}의 유저 정보 조회|
+|GET|/users/me|JWT Token|요청한 유저의 정보 반환|
+|PUT|/users/me|JWT Token|요청한 유저의 정보 수정|
+|DELETE|/users/me|JWT Token|요청한 유저의 정보 삭제|
+
