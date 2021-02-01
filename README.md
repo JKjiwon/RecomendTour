@@ -1,5 +1,8 @@
 # RecomendTour (여행지 추천 Rest API)
-
+## 프로젝트 소개
+* Django를 이용한 회원(User), 여행지(Lcation) 정보 저장용 REST API 구현
+* 여행지 정보에 대한 CRUD 시스템 구현
+* JWT 토큰을 이용한 Authentication 및 Authorization 구현
 
 ## 코드 다운로드
 Clone the repository
@@ -29,6 +32,6 @@ First create virtualenv, then enter the following command
 * 인증( JWT Token) 발급 및 갱신 관련
 |  <center>HTTP</center> |  <center>Path</center> |  <center>Permission</center> |  <center>목적</center> |
 |:--------|:--------|:--------|:--------|
-|**cell 1x1** | <center>cell 1x2 </center> |*cell 1x3* |
-|**cell 2x1** | <center>cell 2x2 </center> |*cell 2x3* |
-|**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |
+|**cell 1x1** | <center>cell 1x2 </center> |*cell 1x3* |*cell 1x3* |
+|**cell 2x1** | <center>cell 2x2 </center> |*cell 2x3* |*cell 1x3* |
+|**cell 3x1** | <center>cell 3x2 </center> |*cell 3x3* |*cell 1x3* |
