@@ -102,7 +102,5 @@ Repository 를 클론
 |PUT|/locations/{id}|JWT Token|{id}의 여행지 사진 정보 수정|
 |DELETE|/locations/{id}|JWT Token|{id}의 여행지 사진 정보 삭제|
 
-## End Points
-* 데이터베이스 스키마와 관계
-<img src="./database schema">
+## 데이터베이스 스키마와 관계
 
