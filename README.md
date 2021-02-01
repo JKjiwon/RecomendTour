@@ -37,6 +37,8 @@ Repository 를 클론
 |POST|/users/refresh|JWT Token|JWT Token 검증 후 새로운 토큰 반환|
 |GET|/users/validate|JWT Token|JWT Token 검증|
 
+<br>
+
 * 회원(User) 리소스 관련 API
 
 |HTTP|Path|Permission|목적|
@@ -48,7 +50,9 @@ Repository 를 클론
 |PUT|/users/me|JWT Token|요청한 유저의 정보 수정|
 |PUT|/users/me/changepssword|JWT Token|유저 비빌번호 변경
 |DELETE|/users/me|JWT Token|요청한 유저의 정보 삭제|
+
 <br>
+
 * 회원이 좋아하는 장소 관련 API
 
 |HTTP|Path|Permission|목적|
@@ -56,12 +60,16 @@ Repository 를 클론
 |GET|/users/me/favs|JWT Token|요청한 유저의 좋아하는 여행지 조회|
 |PUT|/users/me/favs|JWT Token|요청한 유저의 좋아하는 여행지 수정|
 
+<br>
+
 * ID/비밀번호 찾기 관련 API
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
 |POST|users/findusername|NONE|회원 이름, 전화번호 입력시 ID 반환|
 |POST|users/findpassword|NONE|회원 이름, 전화번호, ID 입력시 password 초기화 후 반환|
+
+<br>
 
 * 여행지(Location) 리소스 관련 API
 
@@ -73,12 +81,16 @@ Repository 를 클론
 |PUT|/locations/{id}|JWT Token|{id}의 여행지 정보 수정|
 |DELETE|/locations/{id}|JWT Token|{id}의 여행지 정보 삭제|
 
+<br>
+
 * 여행지(Location) 리소스 관련 API Filtering AND Searching
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
 |GET|/locations|Name, City, Category, Creator|Parms와 일치하는 정보 조회|
 |GET|/locations|Search|Name, Description, City 관련 정보 조회|
+
+<br>
 
 * 여행지 사진(Photo) 리소스 관련 API
 
