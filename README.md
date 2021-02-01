@@ -5,14 +5,14 @@
 * JWT 토큰을 이용한 Authentication 및 Authorization 구현
 
 ## 코드 다운로드
-Repository를 클론하세요
+Repository 를 클론
 
 `git clone https://github.com/JKjiwon/RecomendTour.git`
 
 
 ## project dependencies 설치
 
-먼저 pipenv를 통해 가상환경을 구성하고, 다음 명령어를 입력하세요
+먼저 pipenv 를 통해 가상환경을 구성하고, 다음 명령어를 입력
 
 `pipenv install -r requirements.txt`
 
