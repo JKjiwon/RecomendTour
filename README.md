@@ -116,7 +116,7 @@ pipenv 를 통해 가상환경을 구성하고, 다음 명령어를 입력
 
 ## 7. 데이터베이스 스키마와 관계
 
-<img src="database_schema.png"  width="700" height="400">
+<img src="database_schema.png" height="400">
 
 * 하나의 사용자(User) 모델은 다수의 여행지(Location)모델을 가질 수 있다.
 * 하나의 여행지(Location)모델은 다수의 사진(Photo) 모델을 가질 수 있다.
