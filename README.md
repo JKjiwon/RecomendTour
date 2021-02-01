@@ -7,7 +7,7 @@
 <br>
 
 ## 2. 코드 다운로드
-Repository 를 클론
+Repository 클론
 
 `git clone https://github.com/JKjiwon/RecomendTour.git`
 
