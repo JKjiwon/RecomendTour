@@ -53,5 +53,4 @@ Repository 를 클론
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
 |GET|/users/me/favs|JWT Token|요청한 유저의 좋아하는 여행지 조회
-
 |PUT|/users/me/favs|JWT Token|요청한 유저의 좋아하는 여행지 수정
