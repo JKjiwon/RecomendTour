@@ -37,8 +37,6 @@ Repository 를 클론
 |POST|/users/refresh|JWT Token|JWT Token을 검증 후 새로운  토큰 반환|
 |GET|/users/validate|JWT Token|JWT Token을 검증|
 
-
-
 * 회원(User) 리소스 관련 API
 
 |HTTP|Path|Permission|목적|
@@ -55,3 +53,8 @@ Repository 를 클론
 |---|---|---|---|
 |GET|/users/me/favs|JWT Token|요청한 유저의 좋아하는 여행지 조회
 |PUT|/users/me/favs|JWT Token|요청한 유저의 좋아하는 여행지 수정
+
+|HTTP|Path|Permission|목적|
+|---|---|---|---|
+|POST|users/findusername|NONE|회원 이름, 전화번호 입력시  ID 반환|
+|POST|users/findpassword|NONE|회원 이름, 전화번호, ID 입력시  password초기화 후 반환|
