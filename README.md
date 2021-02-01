@@ -50,10 +50,11 @@ Repository 를 클론
 |DELETE|/users/me|JWT Token|요청한 유저의 정보 삭제|
 
 * 회원이 좋아하는 장소 관련 API
+
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
-|GET|/users/me/favs|JWT Token|요청한 유저의 좋아하는 여행지 조회
-|PUT|/users/me/favs|JWT Token|요청한 유저의 좋아하는 여행지 수정
+|GET|/users/me/favs|JWT Token|요청한 유저의 좋아하는 여행지 조회|
+|PUT|/users/me/favs|JWT Token|요청한 유저의 좋아하는 여행지 수정|
 
 * ID/비밀번호 찾기 관련 API
 |HTTP|Path|Permission|목적|
