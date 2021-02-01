@@ -32,7 +32,7 @@ Repository 를 클론
 <br>
 
 ## 5. 서버 실행
-`python manage.py runserver` 로 서버 실행 후 **http://127.0.0.1:8000/** 로 접근
+`python manage.py runserver` 로 서버 실행 후 <**http://127.0.0.1:8000/**> 로 접근
 
 <br>
 
@@ -47,7 +47,7 @@ Repository 를 클론
 
 <br>
 
-* 회원(User) 리소스 관련 API
+* 회원(User) 리소스 관련
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
@@ -61,7 +61,7 @@ Repository 를 클론
 
 <br>
 
-* 회원이 좋아하는 장소 관련 API
+* 회원이 좋아하는 장소 관련
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
@@ -70,7 +70,7 @@ Repository 를 클론
 
 <br>
 
-* ID/비밀번호 찾기 관련 API
+* ID/비밀번호 찾기 관련
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
@@ -79,7 +79,7 @@ Repository 를 클론
 
 <br>
 
-* 여행지(Location) 리소스 관련 API
+* 여행지(Location) 리소스 관련
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
@@ -91,7 +91,7 @@ Repository 를 클론
 
 <br>
 
-* 여행지(Location) 리소스 관련 API Filtering AND Searching
+* 여행지(Location) 리소스 관련 : Filtering AND Searching
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
@@ -100,7 +100,7 @@ Repository 를 클론
 
 <br>
 
-* 여행지 사진(Photo) 리소스 관련 API
+* 여행지 사진(Photo) 리소스 관련
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
