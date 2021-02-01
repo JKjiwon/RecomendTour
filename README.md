@@ -32,7 +32,8 @@ Repository 를 클론
 <br>
 
 ## 5. 서버 실행
-`python manage.py runserver` **http://127.0.0.1:8000/** 로 접근
+`python manage.py runserver`
+http://127.0.0.1:8000/ 로 접근
 
 <br>
 
