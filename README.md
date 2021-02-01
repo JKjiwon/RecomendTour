@@ -1,4 +1,4 @@
-# RecomendTour (여행지 추천 Rest API)
+# RecomendTour (여행지 추천 REST API)
 ## 1. 프로젝트 소개
 * Django를 이용한 회원(User), 여행지(Lcation) 정보 저장용 REST API 구현
 * 여행지 정보에 대한 CRUD 시스템 구현
