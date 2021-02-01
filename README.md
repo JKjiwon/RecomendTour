@@ -14,3 +14,11 @@ First create virtualenv, then enter the following command
 `pipenv install -r requirements.txt`
 
 `pipenv install -r requirements-dev.txt --dev`
+
+`python manage.py makemigrations`
+
+`python manage.py migrate`
+
+
+## 서버 실행
+`python manage.py runserver` 브라우저를 통해 **http://0.0.0.0:8000/** 접근
