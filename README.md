@@ -37,7 +37,7 @@ pipenv 를 통해 가상환경을 구성하고, 다음 명령어를 입력
 <br>
 
 ## 6. End Points
-* 인증( JWT Token) 발급 및 갱신 관련
+* 인증( JWT Token) 발급 및 갱신 관련 리소스
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
@@ -47,7 +47,7 @@ pipenv 를 통해 가상환경을 구성하고, 다음 명령어를 입력
 
 <br>
 
-* 회원(User) 리소스 관련
+* 회원(User) 관련 리소스
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
@@ -63,7 +63,7 @@ pipenv 를 통해 가상환경을 구성하고, 다음 명령어를 입력
 
 <br>
 
-* 회원이 좋아하는 장소 관련
+* 회원이 좋아하는 장소 관련 리소스
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
@@ -72,7 +72,7 @@ pipenv 를 통해 가상환경을 구성하고, 다음 명령어를 입력
 
 <br>
 
-* ID/비밀번호 찾기 관련
+* ID/비밀번호 찾기 관련 리소스
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
@@ -81,7 +81,7 @@ pipenv 를 통해 가상환경을 구성하고, 다음 명령어를 입력
 
 <br>
 
-* 여행지(Location) 리소스 관련
+* 여행지(Location) 관련 리소스
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
@@ -93,7 +93,7 @@ pipenv 를 통해 가상환경을 구성하고, 다음 명령어를 입력
 
 <br>
 
-* 여행지(Location) 리소스 관련 : Filtering AND Searching
+* 여행지(Location) 관련 리소스 : Filtering AND Searching
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
@@ -102,7 +102,7 @@ pipenv 를 통해 가상환경을 구성하고, 다음 명령어를 입력
 
 <br>
 
-* 여행지 사진(Photo) 리소스 관련
+* 여행지 사진(Photo) 관련 리소스
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
