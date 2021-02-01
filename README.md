@@ -38,6 +38,7 @@ Repository 를 클론
 |GET|/users/validate|JWT Token|JWT Token을 검증|
 
 
+
 * 회원(User) 리소스 관련 API
 
 |HTTP|Path|Permission|목적|
