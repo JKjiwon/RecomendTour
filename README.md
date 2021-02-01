@@ -48,7 +48,7 @@ Repository 를 클론
 |PUT|/users/me|JWT Token|요청한 유저의 정보 수정|
 |PUT|/users/me/changepssword|JWT Token|유저 비빌번호 변경
 |DELETE|/users/me|JWT Token|요청한 유저의 정보 삭제|
-
+<br>
 * 회원이 좋아하는 장소 관련 API
 
 |HTTP|Path|Permission|목적|
@@ -84,12 +84,14 @@ Repository 를 클론
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
-|POST|/locations/photos/|JWT Token|새로운 여행지 사진 정보 생성|
-|GET|/locations/photos/|NONE|모든 여행지 사진 정보 생성|
+|POST|/locations/photos|JWT Token|새로운 여행지 사진 정보 생성|
+|GET|/locations/photos|NONE|모든 여행지 사진 정보 생성|
 |GET|/locations/{id}|NONE|{id}의 여행지 사진 정보 조회|
 |PUT|/locations/{id}|JWT Token|{id}의 여행지 사진 정보 수정|
 |DELETE|/locations/{id}|JWT Token|{id}의 여행지 사진 정보 삭제|
 
+## End Points
+* 데이터베이스 스키마와 관계
 
 
 
