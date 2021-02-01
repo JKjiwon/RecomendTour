@@ -57,6 +57,7 @@ Repository 를 클론
 |PUT|/users/me/favs|JWT Token|요청한 유저의 좋아하는 여행지 수정|
 
 * ID/비밀번호 찾기 관련 API
+
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
 |POST|users/findusername|NONE|회원 이름, 전화번호 입력시 ID 반환|
