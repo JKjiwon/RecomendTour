@@ -104,6 +104,5 @@ Repository 를 클론
 
 ## End Points
 * 데이터베이스 스키마와 관계
-
-
+<img src="./database schema">
 
