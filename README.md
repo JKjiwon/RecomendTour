@@ -13,7 +13,7 @@ Repository 를 클론
 
 <br>
 
-## 3. project dependencies 설치
+## 3. Project Dependencies 설치
 
 먼저 pipenv 를 통해 가상환경을 구성하고, 다음 명령어를 입력
 
