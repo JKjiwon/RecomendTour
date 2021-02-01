@@ -47,5 +47,11 @@ Repository 를 클론
 |GET|/users/{id}|JWT Token + SuperUser|{id}의 유저 정보 조회|
 |GET|/users/me|JWT Token|요청한 유저의 정보 반환|
 |PUT|/users/me|JWT Token|요청한 유저의 정보 수정|
+|PUT|/users/me/changepssword|JWT Token|유저 비빌번호 변경
 |DELETE|/users/me|JWT Token|요청한 유저의 정보 삭제|
 
+|HTTP|Path|Permission|목적|
+|---|---|---|---|
+|GET|/users/me/favs|JWT Token|요청한 유저의 좋아하는 여행지 조회
+
+|PUT|/users/me/favs|JWT Token|요청한 유저의 좋아하는 여행지 수정
