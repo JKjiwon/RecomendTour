@@ -15,6 +15,8 @@ First create virtualenv, then enter the following command
 
 `pipenv install -r requirements-dev.txt --dev`
 
+## 데이터 베이스 설치
+
 `python manage.py makemigrations`
 
 `python manage.py migrate`
