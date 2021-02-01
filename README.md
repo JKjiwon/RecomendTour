@@ -80,3 +80,16 @@ Repository 를 클론
 |GET|/locations|Name, City, Category, Creator|Parms와 일치하는 정보 조회|
 |GET|/locations|Search|Name, Description, City 관련 정보 조회|
 
+* 여행지 사진(Photo) 리소스 관련 API
+
+|HTTP|Path|Permission|목적|
+|---|---|---|---|
+|POST|/locations/photos/|JWT Token|새로운 여행지 사진 정보 생성|
+|GET|/locations/photos/|NONE|모든 여행지 사진 정보 생성|
+|GET|/locations/{id}|NONE|{id}의 여행지 사진 정보 조회|
+|PUT|/locations/{id}|JWT Token|{id}의 여행지 사진 정보 수정|
+|DELETE|/locations/{id}|JWT Token|{id}의 여행지 사진 정보 삭제|
+
+
+
+
