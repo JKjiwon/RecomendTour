@@ -59,6 +59,7 @@ pipenv 를 통해 가상환경을 구성하고, 다음 명령어를 입력
 |PUT|/users/me/changepssword|JWT Token|유저 비빌번호 변경
 |DELETE|/users/me|JWT Token|요청한 유저의 정보 삭제|
 
+`SuperUser : python manage.py createsuperuser 로 생성한 유저`
 <br>
 
 * 회원이 좋아하는 장소 관련
