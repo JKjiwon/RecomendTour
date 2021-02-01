@@ -22,3 +22,5 @@ First create virtualenv, then enter the following command
 
 ## 서버 실행
 `python manage.py runserver` **http://0.0.0.0:8000/** 로 접근
+
+## End Points
