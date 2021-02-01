@@ -104,4 +104,4 @@ Repository 를 클론
 
 ## 데이터베이스 스키마와 관계
 
-<img src="database_schema"  width="700" height="400">
+<img src="database_schema.png"  width="700" height="400">
