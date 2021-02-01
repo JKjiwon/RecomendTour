@@ -30,4 +30,9 @@ First create virtualenv, then enter the following command
 
 ## End Points
 * 인증( JWT Token) 발급 및 갱신 관련
-|  <center>HTTP</center> |  <center>Path</center> |  <center>Permission</center> |  <center>목적</center> |
+
+|HTTP|Path|Permission|
+|------|---|---|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
