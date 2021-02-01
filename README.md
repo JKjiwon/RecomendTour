@@ -4,11 +4,14 @@
 * 여행지 정보에 대한 CRUD 시스템 구현
 * JWT 토큰을 이용한 Authentication 및 Authorization 구현
 
+<br>
+
 ## 코드 다운로드
 Repository 를 클론
 
 `git clone https://github.com/JKjiwon/RecomendTour.git`
 
+<br>
 
 ## project dependencies 설치
 
@@ -18,15 +21,20 @@ Repository 를 클론
 
 `pipenv install -r requirements-dev.txt --dev`
 
+<br>
+
 ## 데이터 베이스 설치
 
 `python manage.py makemigrations`
 
 `python manage.py migrate`
 
+<br>
 
 ## 서버 실행
 `python manage.py runserver` **http://0.0.0.0:8000/** 로 접근
+
+<br>
 
 ## End Points
 * 인증( JWT Token) 발급 및 갱신 관련
@@ -102,6 +110,14 @@ Repository 를 클론
 |PUT|/locations/{id}|JWT Token|{id}의 여행지 사진 정보 수정|
 |DELETE|/locations/{id}|JWT Token|{id}의 여행지 사진 정보 삭제|
 
+<br>
+
 ## 데이터베이스 스키마와 관계
 
 <img src="database_schema.png"  width="700" height="400">
+
+* 하나의 사용자(User) 모델은 다수의 여행지(Location)모델을 가질 수 있다.
+* 하나의 여행지(Location)모델은 다수의 사진(Photo) 모델을 가질 수 있다.
+* 다수의 사용자(User) 모델은 다수의 여행지(Location)모델을 가질 수 있다.
+
+
