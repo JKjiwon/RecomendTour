@@ -33,6 +33,6 @@ First create virtualenv, then enter the following command
 
 |HTTP|Path|Permission|목적|
 |---|---|---|---|
-|POST|users/login|테스트3|테스트3|
-|GET|테스트2|테스트3|테스트3|
-|POST|테스트2|테스트3|테스트3|
+|POST|users/login|NONE|테스트3|
+|GET|users/validate|Access Token|테스트3|
+|POST|users/refresh|Access Token|테스트3|
