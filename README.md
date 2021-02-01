@@ -15,7 +15,7 @@ Repository 클론
 
 ## 3. Project Dependencies 설치
 
-먼저 pipenv 를 통해 가상환경을 구성하고, 다음 명령어를 입력
+pipenv 를 통해 가상환경을 구성하고, 다음 명령어를 입력
 
 `pipenv install -r requirements.txt`
 
